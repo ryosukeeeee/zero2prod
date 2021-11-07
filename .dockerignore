@@ -1,0 +1,7 @@
+.env
+rust-toolchain
+target/
+tests/
+Dockerfile
+scripts/
+migrations/
