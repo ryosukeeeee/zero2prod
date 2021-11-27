@@ -1,4 +1,3 @@
-use actix_http::client;
 use once_cell::sync::Lazy;
 use sqlx::{Connection, Executor, PgConnection, PgPool};
 use std::net::TcpListener;
