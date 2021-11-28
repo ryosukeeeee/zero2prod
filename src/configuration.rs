@@ -1,5 +1,4 @@
 use crate::domain::SubscriberEmail;
-use serde::Deserialize;
 use serde_aux::field_attributes::deserialize_number_from_string;
 use sqlx::postgres::PgConnectOptions;
 use sqlx::postgres::PgSslMode;

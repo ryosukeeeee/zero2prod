@@ -1,6 +1,5 @@
 use crate::domain::SubscriberEmail;
 use reqwest::Client;
-use serde::Serialize;
 
 pub struct EmailClient {
     http_client: Client,
